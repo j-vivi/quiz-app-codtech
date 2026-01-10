@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quizzie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>🎀 Quizzie</h1>
+    <p class="subtitle">Test your brain cells hehe</p>
+
+    <div id="progress">
+      Question <span id="currentQ">1</span> / <span id="totalQ">10</span>
+    </div>
+
+    <div id="question"></div>
+
+    <div id="options"></div>
+
+    <p id="feedback"></p>
+
+    <button id="nextBtn">Next ➜</button>
+
+    <div id="scoreBox" class="hidden">
+      <h2>Your Score 💗</h2>
+      <p id="score"></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
