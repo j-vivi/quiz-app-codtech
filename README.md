@@ -26,3 +26,8 @@ In addition to functionality, special attention was given to the user experience
 This project also helped me gain a deeper understanding of how JavaScript interacts with HTML and CSS to create dynamic web applications. By working on this quiz app, I learned how to manipulate the DOM (Document Object Model), handle user events such as clicks, and update the content of the page without reloading it. These are essential skills for any front-end web developer.
 
 Overall, the Quiz Application is a strong example of combining structure, design, and logic to create a functional web-based project. It demonstrates my ability to use HTML for structure, CSS for styling, and JavaScript for interactivity, making it a complete front-end application. As part of my internship, this project reflects my learning progress and my ability to build interactive websites that are both useful and visually appealing.
+
+
+*#OUTPUT*
+
+<img width="1858" height="810" alt="Image" src="https://github.com/user-attachments/assets/54936359-cd95-4682-b591-b3b5a4097307" />
