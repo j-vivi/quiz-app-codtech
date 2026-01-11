@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Mobile responsive -->
+  <title>Quizzie</title> <!-- Page title -->
+  <link rel="stylesheet" href="style.css" /> <!-- Link to CSS -->
+</head>
+<body>
+
+  <!-- Main quiz container -->
+  <div class="quiz-container">
+    <h1>🎀 Quizzie</h1> <!-- App title -->
+    <p class="subtitle">Test your brain cells hehe</p>
+
+    <!-- Question progress -->
+    <div id="progress">
+      Question <span id="currentQ">1</span> / <span id="totalQ">10</span>
+    </div>
+
+    <!-- Question text -->
+    <div id="question"></div>
+
+    <!-- Answer options -->
+    <div id="options"></div>
+
+    <!-- Correct / Wrong feedback -->
+    <p id="feedback"></p>
+
+    <!-- Next question button -->
+    <button id="nextBtn">Next ➜</button>
+
+    <!-- Final score box -->
+    <div id="scoreBox" class="hidden">
+      <h2>Your Score 💗</h2>
+      <p id="score"></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
